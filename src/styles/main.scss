@@ -1,0 +1,31 @@
+@import './var.scss';
+@import './mixins';
+
+@import './header.scss';
+@import './main-section.scss';
+@import './footer.scss';
+@import './counter.scss';
+@import './dropdown.scss';
+@import './color-picker.scss';
+@import './todo.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.App{
+    position: relative;
+    min-height: 100vh;
+}
+.main-container{
+    padding: 0 15%;
+}
+.title{
+    font-family: $edu;
+    font-weight: bold;
+    color: $bckg-color2;
+    margin-bottom: 10px;
+    text-align: center;
+}

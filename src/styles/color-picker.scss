@@ -1,0 +1,28 @@
+.colorPicker{
+    width: 240px;
+    border: 2px solid $bckg-color2;
+    padding: 8px 0;
+}
+.colorPicker h2{
+    text-align: center;
+    font-family: $edu;
+}
+.colorPicker-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.colorPicker__item{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 250ms linear;
+}
+
+.colorPicker__item--active{
+    transform: scale(1.2);
+}

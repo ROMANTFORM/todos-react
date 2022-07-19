@@ -1,0 +1,45 @@
+.todo-container{
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid $bckg-color2;
+}
+.total-task{
+    font-family: $edu;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.todoList{
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.todoList__item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid $bckg-color2;
+    border-radius: 5px;
+    background-color: $white;
+}
+.todoList__text{
+    font-family: $edu;
+    font-size: 18px;
+    font-weight: bold;
+    color: $bckg-color2;
+    margin-right: 10px;
+}
+.todoList__btn{
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    width: 32px;
+    height: 32px;
+    color: $white;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: $bckg-color2;
+}

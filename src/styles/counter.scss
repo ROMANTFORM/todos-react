@@ -1,0 +1,31 @@
+.Counter{
+    display: block;
+    width: 200px;
+    padding: 30px;
+    border: 2px solid $bckg-color2;
+    border-radius: 5px;
+}
+.Counter__value{
+    font-size: 45px;
+    font-family: $edu;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.Counter__controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Counter__btn{
+    border: none;
+    border-radius: 20px;
+    background-color: $bckg-color2;
+    color: $white;
+    font-family: $edu;
+    font-weight: 600;
+    padding: 8px 15px;
+    width: 60px;
+    cursor: pointer;
+}
