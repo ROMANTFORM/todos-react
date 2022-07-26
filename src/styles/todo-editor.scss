@@ -1,0 +1,34 @@
+.todo__editor{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    border: 1px solid $bckg-color2;
+    border-radius: 8px;
+    margin: auto;
+}
+.todo__editor h4{
+    font-family: $edu;
+    text-align: center;
+    margin-bottom: 5px;
+    color: $bckg-color2;
+    line-height: 100%;
+}
+.editor-input{
+    border-radius: 8px;
+    background-color: #ffffff;
+    outline: none;
+    padding: 5px;
+}
+.editor-btn{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: $bckg-color2;
+    color: $white;
+    font-family: $edu;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+}

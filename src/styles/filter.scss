@@ -1,0 +1,20 @@
+.search-wrapper{
+    padding: 20px 0;
+    display: flex;
+}
+.search-input{
+    padding: 8px;
+    border: 1px solid $bckg-color2;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 300px;
+}
+.search-btn{
+    border: none;
+    background-color: $bckg-color2;
+    border-radius: 0 5px 5px 0;
+    padding: 8px;
+    color: $white;
+    font-family: $edu;
+    font-weight: bold;
+}
